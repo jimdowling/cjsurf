@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 api-key.txt
+index.html
 
 # C extensions
 *.so
