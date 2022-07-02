@@ -3,3 +3,5 @@ jupyter
 nbconvert
 scikit-learn
 parsedatetime
+plotly
+kaleido
