@@ -1,5 +1,5 @@
 parsedatetime
-hopsworks
+hopsworks==3.0.0rc5
 scikit-learn
 plotly
 kaleido
