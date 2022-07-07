@@ -1,7 +1,5 @@
-hopsworks
-jupyter
-nbconvert
-scikit-learn
 parsedatetime
+hopsworks
+scikit-learn
 plotly
 kaleido
