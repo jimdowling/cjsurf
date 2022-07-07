@@ -1,3 +1,7 @@
+[![cjsurf](https://github.com/jimdowling/cjsurf/actions/workflows/main.yml/badge.svg?event=workflow_run)](https://github.com/jimdowling/cjsurf/actions/workflows/main.yml)
+
+[![cjsurf](https://github.com/jimdowling/cjsurf/actions/workflows/main.yml/badge.svg?event=schedule)](https://github.com/jimdowling/cjsurf/actions/workflows/main.yml)
+
 # cjsurf
 Surf height prediction service for Lahinch, Ireland
 
