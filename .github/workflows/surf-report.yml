@@ -1,4 +1,4 @@
-name: cjsurf
+name: cjsurf-surf-report
 
 on:
   schedule:
