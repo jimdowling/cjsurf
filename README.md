@@ -14,5 +14,8 @@ https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/
 3. **Streamlit Cloud**: The user interface is a Streamlit application written in Python  
 
 ## Architecture
+
+CJSurf is written entirely in Python.
+
 ![CJSurf Architecture](https://github.com/jimdowling/cjsurf/blob/main/cjsurf-architecture.png)
 
