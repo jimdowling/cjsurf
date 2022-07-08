@@ -15,7 +15,7 @@ https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/
 2. **Github Actions**: Two feature pipelines and a batch prediction pipeline are executed in total five times per day using GitHubActions.
 3. **Streamlit Cloud**: The user interface is a Streamlit application written in Python  
 
-The model training notebook was run manually in Colab, and can be run again at any time, using the new training data that has been collected since the last training run.
+The model training notebook was run manually in [Colab](https://colab.research.google.com/github/jimdowling/cjsurf/blob/main/training-pipeline.ipynb), and can be run again at any time, using the new training data that has been collected since the last training run.
 
 ## Architecture
 
