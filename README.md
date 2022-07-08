@@ -23,3 +23,6 @@ CJSurf is written entirely in Python.
 
 ![CJSurf Architecture](https://github.com/jimdowling/cjsurf/blob/main/cjsurf-architecture.png)
 
+## References
+
+ * This work is based on a [paper we published on predicting wave heights at ICML 2005](https://icml.cc/Conferences/2005/proceedings/papers/015_Predicting_CarneyEtAl.pdf).
