@@ -7,6 +7,8 @@ A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Be
 
 https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/
 
+![Lahinch](https://github.com/jimdowling/cjsurf/blob/main/lahinch.png)
+
 ## Operated using only Free Serverless Services 
 
 1. **Hopsworks**: Features, models, and assets are stored on https://app.hopsworks.ai
