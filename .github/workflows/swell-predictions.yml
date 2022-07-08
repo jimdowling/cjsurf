@@ -25,4 +25,4 @@ jobs:
       - name: execute python workflows from bash script
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: ./run-swell-prediction-pipelines-every-6-hrs.sh
+        run: ./scripts/run-swell-prediction-pipelines-every-6-hrs.sh
