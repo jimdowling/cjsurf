@@ -5,7 +5,7 @@
 # Cjsurf
 A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Beach, Ireland:
 
-https://share.streamlit.io/app/jimdowling-cjsurf-streamlit-image-qzs9hv/ 
+https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/
 
 ## Free Serverless Services 
 
