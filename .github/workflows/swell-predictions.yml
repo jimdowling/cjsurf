@@ -1,7 +1,7 @@
 name: cjsurf-swell-batch-predict
 
 on:
-  schedule:
+  [workflow_dispatch,schedule]:
     - cron: '24 */6 * * *'
 
 jobs:
