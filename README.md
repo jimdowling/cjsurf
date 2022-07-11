@@ -2,10 +2,15 @@
 
 [![cjsurf-swell-batch-predict](https://github.com/jimdowling/cjsurf/actions/workflows/swell-predictions.yml/badge.svg)](https://github.com/jimdowling/cjsurf/actions/workflows/swell-predictions.yml)
 
+# PyData London Talk
+
+![PyData London talk](https://www.youtube.com/watch?v=AIof4woJSkY)
+
 # Cjsurf
 A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Beach, Ireland:
 
 https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/
+
 
 ![Lahinch](https://github.com/jimdowling/cjsurf/blob/main/lahinch.png)
 
