@@ -3,7 +3,6 @@ import hopsworks
 
 
 st.title("Lahinch Surf Forecast")
-st.subheader('CJSurf')
 
 project = hopsworks.login()
 
