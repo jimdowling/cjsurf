@@ -36,9 +36,9 @@ CJSurf is written entirely in Python.
 1. Github Actions files: .github/workflows/*.yml - they run the notebooks below on 6 hr and 24 hr schedules using bash scripts.
 2. Streamlit UI: `streamlit-image.py` - this Python program downloads the prediction image from Hopsworks and displays it. You need to set the HOPSWORKS_API_KEY environment variable in your Streamlit application. You create the HOPSWORKS_API_KEY in app.hopsworks.ai.
 3. Notebooks: 
- * `surf-report-feature-pipeline.ipynb`: Downloads the latest surf report for today and writes it to the `lahinch` feature group.  Set 'BACKFILL=True' to fill with some surf reports from 2004 from a csv file.
- * `swell-predictions-feature-pipeline.ipynb`: Downloads the latest swell predictions and writes them to `swells_exploded`. Set 'BACKFILL=True' to fill with some swell predictions from 2004 from a csv file.
- * `training-pipeline.ipynb`: Trains a k-nearest neighbor model using scikit-learn. Creates training data using a feature view `lahinch_surf` that is created by performing a point-in-time correct join of features from `lahinch` and `swells_exploded`.
- * `batch-prediction-pipeline.ipynb`: Writes predictions to  feature group `wave_predictions` and generates a PNG image with the predictions that is uploaded to Hopsworks.
+ * `surf-report-feature-pipeline.ipynb`: Downloads the latest surf report for today and writes it to the `lahinch` feature group.  Run manually first with 'BACKFILL=True' to fill the feature group with some surf reports from 2004 from a csv file.
+ * `swell-predictions-feature-pipeline.ipynb`: Downloads the latest swell predictions and writes them to `swells_exploded`. Run manually first with 'BACKFILL=True' to fill the feature group with some swell predictions from 2004 from a csv file.
+ * `training-pipeline.ipynb`: Trains a k-nearest neighbor model using scikit-learn. Creates training data using a feature view `lahinch_surf` that is created by performing a point-in-time correct join of features from the `lahinch` and `swells_exploded` feature groups.
+ * `batch-prediction-pipeline.ipynb`: Gets the latest feature values for the `lahinch_surf` feature view and makes predictions of the surf heights for every 2 hours for the next 238 hours. It writes the predictions to a feature group `wave_predictions` and generates a PNG image with the predictions that is uploaded to Hopsworks. Streamlit downloads and shows this PNG as the surf predictions.
 
 4. Scripts: these are run by the Github Actions workflows. They use nbconvert to convert the notebooks to Python programs that are then run.
