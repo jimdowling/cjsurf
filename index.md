@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+### CJSurf
 
-You can use the [editor on GitHub](https://github.com/jimdowling/cjsurf/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Image]([src](https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/~/+/media/950a47dc3739c50322d4093c8cc846963c04eccb81619da3d54ef7ba.png))
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### References
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Beach, Ireland:
 
-```markdown
-Syntax highlighted code block
+ * [Live Predictions of Surf Height at Lahinch](https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/)
+ * [PyData London talk on CJSurf as a Serverless ML Platform](https://www.youtube.com/watch?v=AIof4woJSkY)
+ * [Predicting surf wave heights (ICML 2005)](https://icml.cc/Conferences/2005/proceedings/papers/015_Predicting_CarneyEtAl.pdf)
 
-# Header 1
-## Header 2
-### Header 3
+![Lahinch](https://github.com/jimdowling/cjsurf/blob/main/lahinch.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jimdowling/cjsurf/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
