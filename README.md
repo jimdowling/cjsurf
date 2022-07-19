@@ -42,3 +42,17 @@ CJSurf is written entirely in Python.
  * `batch-prediction-pipeline.ipynb`: Gets the latest feature values for the `lahinch_surf` feature view and makes predictions of the surf heights for every 2 hours for the next 238 hours. It writes the predictions to a feature group `wave_predictions` and generates a PNG image with the predictions that is uploaded to Hopsworks. Streamlit downloads and shows this PNG as the surf predictions.
 
 4. Scripts: these are run by the Github Actions workflows. They use nbconvert to convert the notebooks to Python programs that are then run.
+
+
+
+### Data Sources
+
+**Buoy for Predictions**
+
+* ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/v16.2/gfs.20220710/00/wave/station/bulls.t00z/gfswave.62081.spec
+* https://polar.ncep.noaa.gov/waves/WEB/gfswave.latest_run/plots/gfswave.62081.bull
+* https://polar.ncep.noaa.gov/waves/product_table.shtml?-latest-gfswave-tp_sw1-NE_atlantic-
+
+**Surf Height Observations at Lahinch Beach**
+
+* https://www.lahinchsurfshop.com/
