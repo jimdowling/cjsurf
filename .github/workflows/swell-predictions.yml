@@ -38,6 +38,7 @@ jobs:
 	  # - exitImmediately -> the action will stop right away, and the step will fail
 	  # - exitAtEnd -> the action will go on, every pathspec error will be logged at the end, the step will fail.
 	  # Default: ignore
+          new_branch: gh-pages
 	  pathspec_error_handling: exitImmediately
 	  pull: '--rebase --autostash ...'
 	  push: true
