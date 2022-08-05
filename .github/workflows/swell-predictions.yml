@@ -28,6 +28,7 @@ jobs:
           CJSURF_BACKFILL: False
         run: ./scripts/run-swell-prediction-pipelines-every-6-hrs.sh
       - name: update graph image with predictions
+        uses: EndBug/add-and-commit@v9 
         with:
           add: 'latest_lahinch.png'
           author_name: Jim Dowling
