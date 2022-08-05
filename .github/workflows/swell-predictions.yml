@@ -27,6 +27,7 @@ jobs:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
           CJSURF_BACKFILL: False
         run: ./scripts/run-swell-prediction-pipelines-every-6-hrs.sh
+
       - name: update graph image with predictions
         uses: EndBug/add-and-commit@v9 
         with:
@@ -34,6 +35,6 @@ jobs:
           author_name: Jim Dowling
           author_email: jim@hopsworks.ai
           new_branch: gh-pages
-          pathspec_error_handling: exitImmediately
+          pathspec_error_handling: ignore # exitImmediately
           pull: '--rebase --autostash ...'
           push: true
