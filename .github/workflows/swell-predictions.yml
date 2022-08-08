@@ -29,12 +29,12 @@ jobs:
         run: ./scripts/run-swell-prediction-pipelines-every-6-hrs.sh
 
       - name: update graph image with predictions
-        uses: EndBug/add-and-commit@v9 
+        uses: devops-infra/action-commit-push@master
         with:
-          add: 'latest_lahinch.png'
-          author_name: Jim Dowling
-          author_email: jim@hopsworks.ai
-          new_branch: gh-pages
-          pathspec_error_handling: ignore # exitImmediately
-          pull: '--rebase --autostash ...'
-          push: true
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          add_timestamp: true
+          commit_prefix: "[AUTO]"
+          commit_message: "Automatic commit of latest_lahinch.png"
+          force: false
+          target_branch: gh-pages
+
