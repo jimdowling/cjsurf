@@ -1,1 +1,1 @@
-![Lahinch](https://github.com/jimdowling/cjsurf/raw/gh-pages/notebooks/latest_lahinch.png)
+![Lahinch](https://github.com/jimdowling/cjsurf/raw/main/notebooks/latest_lahinch.png)
