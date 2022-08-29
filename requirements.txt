@@ -1,4 +1,5 @@
 parsedatetime
+nbconvert
 hsfs[python]
 hopsworks
 scikit-learn
