@@ -25,16 +25,16 @@ jobs:
       - name: execute python workflows from bash script
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-          CJSURF_BACKFILL: False
+          BACKFILL: False
         run: ./scripts/run-swell-prediction-pipelines-every-6-hrs.sh
 
-      - name: update graph image with predictions
-        uses: devops-infra/action-commit-push@master
-        with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
-          add_timestamp: true
-          commit_prefix: "[AUTO]"
-          commit_message: "Automatic commit of latest_lahinch.png"
-          force: false
-          target_branch: gh-pages
+#      - name: update graph image with predictions
+#        uses: devops-infra/action-commit-push@master
+#        with:
+#          github_token: "${{ secrets.GITHUB_TOKEN }}"
+#          add_timestamp: true
+#          commit_prefix: "[AUTO]"
+#          commit_message: "Automatic commit of latest_lahinch.png"
+#          force: false
+#          target_branch: gh-pages
 
