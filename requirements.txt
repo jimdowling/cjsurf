@@ -1,7 +1,7 @@
 parsedatetime
-nbconvert
 hsfs[python]
 hopsworks
+nbconvert
 scikit-learn
 plotly
 kaleido
