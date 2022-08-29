@@ -7,7 +7,7 @@
 # Cjsurf
 A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Beach, Ireland:
 
- * [Live Predictions of Surf Height at Lahinch](https://jimdowling-cjsurf-streamlit-image-un2its.streamlitapp.com/)
+ * [Live Predictions of Surf Height at Lahinch](https://jimdowling.github.io/cjsurf/)
  * [PyData London talk on CJSurf as a Serverless ML Platform](https://www.youtube.com/watch?v=AIof4woJSkY)
  * [Predicting surf wave heights (ICML 2005)](https://icml.cc/Conferences/2005/proceedings/papers/015_Predicting_CarneyEtAl.pdf)
 
@@ -17,7 +17,7 @@ A serverless analytical ML system tha predicts surf (wave) heights at Lahinch Be
 
 1. **Hopsworks**: Features, models, and assets are stored on https://app.hopsworks.ai
 2. **Github Actions**: Two feature pipelines and a batch prediction pipeline are executed in total five times per day using GitHubActions.
-3. **Streamlit Cloud**: The user interface is a Streamlit application written in Python  
+3. **Github Pages**: The latest predictions are published on the github pages site.
 
 The model training notebook was run manually in [Colab](https://colab.research.google.com/github/jimdowling/cjsurf/blob/main/training-pipeline.ipynb), and can be run again at any time, using the new training data that has been collected since the last training run.
 
