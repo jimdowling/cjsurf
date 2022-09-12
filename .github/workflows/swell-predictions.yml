@@ -61,7 +61,7 @@ jobs:
       
           # Optional. Option used by `git-status` to determine if the repository is 
           # dirty. See https://git-scm.com/docs/git-status#_options
-          #status_options: '--untracked-files=no'
+          status_options: '--untracked-files=no'
       
           # Optional. Options used by `git-add`.
           # See https://git-scm.com/docs/git-add#_options
@@ -75,10 +75,10 @@ jobs:
           skip_dirty_check: true    
           
           # Optional. Skip internal call to `git fetch`
-          skip_fetch: true    
+          skip_fetch: false
           
           # Optional. Skip internal call to `git checkout`
-          skip_checkout: true
+          skip_checkout: false
       
           # Optional. Prevents the shell from expanding filenames. 
           # Details: https://www.gnu.org/software/bash/manual/html_node/Filename-Expansion.html
@@ -86,13 +86,3 @@ jobs:
       
           # Optional. Create given branch name in local and remote repository.
           create_branch: false
-#      - name: update graph image with predictions
-#        uses: devops-infra/action-commit-push@master
-#        with:
-#          github_token: "${{ secrets.GITHUB_TOKEN }}"
-#          add_timestamp: true
-#          commit_prefix: "[AUTO]"
-#          commit_message: "Automatic commit of latest_lahinch.png"
-#          force: false
-#          target_branch: gh-pages
-
